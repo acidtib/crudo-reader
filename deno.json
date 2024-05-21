@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read --allow-env --watch main.ts",
+    "run": "deno run --allow-net --allow-read --allow-env main.ts"
+  },
+  "deploy": {
+    "exclude": [
+      "**/.vscode"
+    ],
+    "include": [],
+    "entrypoint": "main.ts"
+  }
+}
